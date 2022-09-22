@@ -19,7 +19,7 @@ const meta: Meta = {
 
 export default meta;
 
-interface Props extends ButtonGroupProps {
+interface Props extends ButtonGroupProps<string> {
   darkMode: boolean;
 }
 
@@ -28,7 +28,7 @@ const StoryColors: Story<Props> = (args) => {
   const [activeItem2, setActiveItem2] = useState<string>(options2[1].value);
 
   type ViewOption = "list" | "grid";
-  const [viewOption, setViewOption] = useState<string>("list");
+  const [viewOption, setViewOption] = useState<ViewOption>("list");
 
   //   const handleActiveItem1 = (value: string) => {
   //     setActiveItem1(value);
