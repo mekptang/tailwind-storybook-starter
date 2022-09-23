@@ -10,7 +10,8 @@
     "esbenp.prettier-vscode",
     "petermekhaeil.vscode-tailwindcss-explorer",
     "heybourn.headwind",
-    "naumovs.color-highlight"
+    "naumovs.color-highlight",
+    "GitHub.copilot"
   ],
   // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
   "unwantedRecommendations": []
